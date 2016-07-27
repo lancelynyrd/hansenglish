@@ -18,3 +18,12 @@ add_action('after_setup_theme', function () {
 });
 
 
+abc()->registerRoute(
+    [
+        'how-study',
+        'class-detail-1','class-detail-2','class-detail-3','class-detail-4','class-detail-5','class-detail-6',
+        'use-skype',
+        'free-class',
+        'fee',
+    ]
+);
