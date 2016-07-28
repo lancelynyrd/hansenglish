@@ -14,6 +14,7 @@
     <?php wp_head();?>
 
     <script type="text/javascript">
+        var home_url = "<?php echo home_url()?>";
         var mobileKeyWords = new Array('iPhone', 'iPod', 'BlackBerry', 'Android', 'Windows CE', 'LG', 'MOT', 'SAMSUNG', 'SonyEricsson');
         for (var word in mobileKeyWords){
             if (navigator.userAgent.match(mobileKeyWords[word]) != null){
@@ -23,133 +24,49 @@
 
         }
     </script>
-
-    <style>
-        html,body{width: 100%;height: 100%;margin: 0;padding: 0;}
-        table{width: 100%;height: ";border: 0;border-collapse:collapse;}
-        table td{vertical-align: middle;text-align: center;}
-        td.pink{background-color:#EA1D6D}
-        td.gray{background-color:#1F497B}
-
-        wrap, content {
-            width: 100%;
-            height: 100%;
-            margin: 0;
-            padding: 0;
-        }
-    </style>
-    <style>
-        #test:after {
-            content: '';
-            display: block;
-            clear: both;
-        }
-    </style>
-
-    <style>
-        #con_01 {
-            width: 25%;
-            margin: 0;
-            padding: 0;
-            float: left;
-        }
-        #con_02 {
-            width: 75%;
-            margin: 0;
-            padding: 0;
-            float: left;
-        }
-        #con_03 {
-            width: 100%;
-            margin: 0;
-            padding: 0;
-            float: left;
-        }
-        #con_04 {
-            width: 20%;
-            margin: 0;
-            padding: 0;
-            float: left;
-        }
-        #con_05 {
-            width: 80%;
-            margin: 0;
-            padding: 0;
-            float: left;
-        }
-        #con_06 {
-            width: 100%;
-            height: 80px; <!--공간 띄우기 -->
-            margin: 0;
-            padding: 0;
-            float: left;
-        }
-        #con_07 {
-            width: 100%;
-            height: 80px; <!--공간 띄우기 -->
-            background-color: #989794;
-            margin: 0;
-            padding: 0;
-            float: left;
-        }
-        #con_08 {
-            width: 100%;
-            margin: 0;
-            padding: 0;
-            float: left;
-        }
-        #con_09 {
-            width: 100%;
-            margin: 0;
-            padding: 0;
-            float: left;
-        }
-        #sub_01 {
-            width: 100%;
-            margin: 0;
-            padding: 0;
-            float: left;
-        }
-        #sub_02 {
-            width: 100%;
-            margin: 0;
-            padding: 0;
-            float: left;
-            border-left:0px
-        }
-        #sub_03 {
-            width: 100%;
-            margin: 0;
-            padding: 0;
-            float: left;
-            border-left:0px
-        }
-        #sub_04 {
-            width: 100%;
-            margin: 0;
-            padding: 0;
-            float: left;
-            border-left:0px
-        }
-        #sub_02 li {width:120px; display:inline-block;*display:inline; *zoom:1; border:0px #99FF00 solid}
-
-        #content:after {
-            content: '';
-            display: block;
-            clear: both;
-        }
-    </style>
 </head>
+
+
+<style>
+    #sub_01 > div {
+        float: right;
+    }
+    #sub_01 > div > img,
+    #sub_01 > div > a {
+        float: left;
+        display: block;
+    }
+
+
+</style>
 
 
 <body <?php body_class(); ?>>
 <header>
     <div id="wrap">
         <div id="content">
-            <div id="con_01"><img src="<?php echo td() ?>/img/liberty.jpg" width="100%"></div>
+            <div id="con_01"><a href="<?php echo home_url(); ?>"><img src="<?php echo td() ?>/img/liberty.jpg" width="100%"></a></div>
             <div id="con_02">
                 <div id="sub_01" align="right">
-                    <img src="<?php echo td() ?>/img/head_right_up.jpg" width="100%">
+                    <div>
+                        <img src="<?php echo td() ?>/img/header-menu/hansheader_02.jpg" >
+                        <img src="<?php echo td() ?>/img/header-menu/hansheader_03.jpg" >
+                        <img src="<?php echo td() ?>/img/header-menu/hansheader_04.jpg" >
+                        <img src="<?php echo td() ?>/img/header-menu/hansheader_05.jpg" >
+                        <?php if (is_user_logged_in()) : ?>
+                            <a href="<?php echo home_url() ?>/user-update" ><img src="<?php echo td() ?>/img/header-menu/hansheader_10.jpg" style="cursor: pointer"></a>
+                        <?php else: ?>
+                        <a href="<?php echo home_url() ?>/user-log-in" ><img src="<?php echo td() ?>/img/header-menu/hansheader_06.jpg" style="cursor: pointer"></a>
+                        <?php endif; ?>
+                        <img src="<?php echo td() ?>/img/header-menu/hansheader_07.jpg" >
+                        <?php if (is_user_logged_in()) : ?>
+                            <a href="<?php echo wp_logout_url( home_url() ); ?>"><img src="<?php echo td() ?>/img/header-menu/hansheader_11.jpg" style="cursor: pointer"></a>
+                        <?php else: ?>
+                        <a href="<?php echo home_url() ?>/user-register" ><img src="<?php echo td() ?>/img/header-menu/hansheader_08.jpg" style="cursor: pointer"></a>
+                        <?php endif; ?>
+                        <img src="<?php echo td() ?>/img/header-menu/hansheader_09.jpg" >
+                    </div>
+                    <img src="<?php echo td() ?>/img/header-menu/hansheader_10.gif" >
                 </div>
                 <div id="sub_02" align="right">
                     <span><a href="<?php echo home_url() ?>"><!--
@@ -175,6 +92,15 @@
                             --><img src="<?php echo td() ?>/img/button_intro_study_2.jpg" border="0"><!--
                             <?php else : ?>
                             --><img src="<?php echo td() ?>/img/button_intro_study.jpg" border="0" onmouseout="this.src='<?php echo td() ?>/img/button_intro_study.jpg'" onmouseover="this.src='<?php echo td() ?>/img/button_intro_study_1.jpg'" style="cursor:pointer;"><!--
+                            <?php endif; ?>
+                            --></a>
+                    </span>
+                    <span>
+                        <a href="reservation"><!--
+                            <?php if ( seg(0) == 'reservation' ) : ?>
+                            --><img src="<?php echo td() ?>/img/button_reservation_2.jpg" border="0"><!--
+                            <?php else : ?>
+                            --><img src="<?php echo td() ?>/img/button_reservation.jpg" border="0" onmouseout="this.src='<?php echo td() ?>/img/button_reservation.jpg'" onmouseover="this.src='<?php echo td() ?>/img/button_reservation_1.jpg'" style="cursor:pointer;"><!--
                             <?php endif; ?>
                             --></a>
                     </span>

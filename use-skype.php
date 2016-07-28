@@ -10,10 +10,10 @@
 
     <tr>
 
-        <td width="20%">
-        </td>
+        <!--td width="20%">
+        </td-->
 
-        <td width="80%">
+        <td width="80%" align="left">
 
             <br><br>
 
@@ -68,22 +68,30 @@
                     </div>
 
                     <br><br><br><br>
-                    <div class="content-list-text"><p>3. 登录microsoft账号后，页面跳转到如图，选择新用户那里</p><div class="content-list-media">
+                    <div class="content-list-text"><p>3. 登录microsoft账号后，页面跳转到如图，选择新用户那里</p>
+                        <div class="content-list-media">
                             <div class="content-list-image clearfix"><img src="<?php tde() ?>/img/skype/reg_2_3.jpg" width="30%">
                             </div>
 
                             <br><br><br><br>
-                            <div class="content-list-text"><p>4. 如图，同意加入skype即可注册成功，邮件通知可以选择取消</p><div class="content-list-media">
+                            <div class="content-list-text"><p>4. 如图，同意加入skype即可注册成功，邮件通知可以选择取消</p>
+                                <div class="content-list-media">
                                     <div class="content-list-image clearfix"><img src="<?php tde() ?>/img/skype/reg_2_4.jpg" width="30%">
                                     </div>
 
                                     <br><br><br><br>
                                     <div class="content-list-text"><p>5. 如图注册成功后，跳转到首页，同样右上角可看到账号，
                                             <br>
-                                            &nbsp; &nbsp; &nbsp;在skype登录时可直接通过microsoft账号登录(skype上有登录入口)</p><div class="content-list-media">
+                                            &nbsp; &nbsp; &nbsp;在skype登录时可直接通过microsoft账号登录(skype上有登录入口)</p>
+                                        <div class="content-list-media">
                                             <div class="content-list-image clearfix"><img src="<?php tde() ?>/img/skype/reg_2_5.jpg" width="30%">
                                             </div>
-
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
         </td>
     </tr>
 </table>
