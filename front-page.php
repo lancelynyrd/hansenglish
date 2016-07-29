@@ -6,7 +6,7 @@ get_header();
     <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
     <html xmlns="http://www.w3.org/1999/xhtml">
 
-    <html>
+    <html>  
     <script type='text/javascript'>
         // 이미지 목록을 담아놓을 배열객체 선언
         var bannerImg = new Array();

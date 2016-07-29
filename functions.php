@@ -14,8 +14,6 @@ add_action( 'wp_enqueue_scripts', function () {
     wp_enqueue_style( 'base', td() . '/css/base.css' );
     wp_enqueue_style( 'layout', td() . '/css/layout.css' );
     wp_enqueue_style( 'module', td() . '/css/module.css' );
-
-    wp_enqueue_style( 'module.header', td() . '/css/module.header.css' );
     wp_enqueue_script( 'wp-util' );
     /** Pages that use bootstrap */
     if ( is_front_page() || seg(0) == 'reservation' || seg(0) == 'enrollment' || seg(0) == 'user-log-in' || seg(0) == 'user-register') {
@@ -40,12 +38,14 @@ add_action('after_setup_theme', function () {
 
 abc()->registerRoute(
     [
-        'how-study',
+        'reservation',
+        'how-study','use-skype','free-class','fee',
         'class-detail-1','class-detail-2','class-detail-3','class-detail-4','class-detail-5','class-detail-6',
-        'use-skype',
-        'free-class',
-        'fee',
-        'reservation'
+        'm-index',
+        'm-ch-index','m-how-study','m-use-skype','m-free-class','m-fee',
+        'm-class-detail-1','m-class-detail-2','m-class-detail-3','m-class-detail-4','m-class-detail-5','m-class-detail-6',
+
+
     ]
 );
 
