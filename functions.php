@@ -42,10 +42,9 @@ abc()->registerRoute(
         'how-study','use-skype','free-class','fee',
         'class-detail-1','class-detail-2','class-detail-3','class-detail-4','class-detail-5','class-detail-6',
         'm-index',
-        'm-ch-index','m-how-study','m-use-skype','m-free-class','m-fee',
-        'm-class-detail-1','m-class-detail-2','m-class-detail-3','m-class-detail-4','m-class-detail-5','m-class-detail-6',
-
-
+        'm-ch-index','m-ch-how-study','m-ch-use-skype','m-ch-free-class','m-ch-fee','m-ch-what-is-en','m-ch-hongbao',
+        'm-ch-class-detail-1','m-ch-class-detail-2','m-ch-class-detail-3',
+        'm-ch-class-detail-4','m-ch-class-detail-5','m-ch-class-detail-6',
     ]
 );
 
