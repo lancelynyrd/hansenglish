@@ -35,7 +35,7 @@
                 <?php else: ?>
                     <a href="<?php echo home_url() ?>/user-register" ><img src="<?php echo td() ?>/img/header-menu/hansheader_08.jpg" style="cursor: pointer"></a>
                 <?php endif; ?>
-                <img src="<?php echo td() ?>/img/header-menu/hansheader_09.jpg" >
+                <a href="<?php vc_url()?>" target="_blank"><img src="<?php echo td() ?>/img/header-menu/hansheader_12.jpg" style="cursor: pointer"></a>
             </div>
         </div>
         <div id="sub_02">
