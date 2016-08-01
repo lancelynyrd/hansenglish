@@ -1,6 +1,10 @@
 header {
     z-index: 12345;
 }
+body footer {
+    display: inline-block;
+    width: 100%;
+}
 .header-inner {
     position: relative;
     margin: 0 auto;
