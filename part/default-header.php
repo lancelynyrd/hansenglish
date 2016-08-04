@@ -1,4 +1,4 @@
-<?php wp_enqueue_style( 'module.header', td() . '/css/module.header.css' ); ?>
+
 
 <script type="text/javascript">
     var home_url = "<?php echo home_url()?>";
@@ -12,11 +12,6 @@
     }
 </script>
 <div id="content">
-    <div id="con_01">
-        <a href="<?php echo home_url(); ?>">
-            <img src="<?php echo td() ?>/img/liberty.jpg">
-        </a>
-    </div>
     <div id="con_02">
         <div id="sub_01">
             <div>
@@ -40,32 +35,6 @@
         </div>
         <div id="sub_02">
             <div>
-                        <span><a href="<?php echo home_url() ?>"><!--
-                                <?php if ( is_front_page() ) : ?>
-                                --><img src="<?php echo td() ?>/img/button_home_2.jpg" border="0"><!--
-                                <?php else : ?>
-                                --><img src="<?php echo td() ?>/img/button_home.jpg" border="0" onmouseout="this.src='<?php echo td() ?>/img/button_home.jpg'" onmouseover="this.src='<?php echo td() ?>/img/button_home_1.jpg'" style="cursor:pointer;"><!--
-                                <?php endif; ?>
-                                --></a>
-                        </span>
-                        <span>
-                            <a href="how-study"><!--
-                                <?php if ( seg(0) == 'how-study' ) : ?>
-                                --><img src="<?php echo td() ?>/img/button_how_study_2.jpg" border="0"><!--
-                                <?php else : ?>
-                                --><img src="<?php echo td() ?>/img/button_how_study.jpg" border="0" onmouseout="this.src='<?php echo td() ?>/img/button_how_study.jpg'" onmouseover="this.src='<?php echo td() ?>/img/button_how_study_1.jpg'" style="cursor:pointer;"><!--
-                                <?php endif; ?>
-                                --></a>
-                        </span>
-                        <span>
-                            <a href="class-detail-1"><!--
-                                <?php if ( strpos( seg(0), 'class-detail') !== false ) : ?>
-                                --><img src="<?php echo td() ?>/img/button_intro_study_2.jpg" border="0"><!--
-                                <?php else : ?>
-                                --><img src="<?php echo td() ?>/img/button_intro_study.jpg" border="0" onmouseout="this.src='<?php echo td() ?>/img/button_intro_study.jpg'" onmouseover="this.src='<?php echo td() ?>/img/button_intro_study_1.jpg'" style="cursor:pointer;"><!--
-                                <?php endif; ?>
-                                --></a>
-                        </span>
                         <span>
                             <a href="reservation"><!--
                                 <?php if ( seg(0) == 'reservation' ) : ?>
@@ -103,6 +72,40 @@
                                 --></a>
                         </span>
             </div>
+            <div>
+                        <span><a href="<?php echo home_url() ?>"><!--
+                                <?php if ( is_front_page() ) : ?>
+                                --><img src="<?php echo td() ?>/img/button_home_2.jpg" border="0"><!--
+                                <?php else : ?>
+                                --><img src="<?php echo td() ?>/img/button_home.jpg" border="0" onmouseout="this.src='<?php echo td() ?>/img/button_home.jpg'" onmouseover="this.src='<?php echo td() ?>/img/button_home_1.jpg'" style="cursor:pointer;"><!--
+                                <?php endif; ?>
+                                --></a>
+                        </span>
+                        <span>
+                            <a href="how-study"><!--
+                                <?php if ( seg(0) == 'how-study' ) : ?>
+                                --><img src="<?php echo td() ?>/img/button_how_study_2.jpg" border="0"><!--
+                                <?php else : ?>
+                                --><img src="<?php echo td() ?>/img/button_how_study.jpg" border="0" onmouseout="this.src='<?php echo td() ?>/img/button_how_study.jpg'" onmouseover="this.src='<?php echo td() ?>/img/button_how_study_1.jpg'" style="cursor:pointer;"><!--
+                                <?php endif; ?>
+                                --></a>
+                        </span>
+                        <span>
+                            <a href="class-detail-1"><!--
+                                <?php if ( strpos( seg(0), 'class-detail') !== false ) : ?>
+                                --><img src="<?php echo td() ?>/img/button_intro_study_2.jpg" border="0"><!--
+                                <?php else : ?>
+                                --><img src="<?php echo td() ?>/img/button_intro_study.jpg" border="0" onmouseout="this.src='<?php echo td() ?>/img/button_intro_study.jpg'" onmouseover="this.src='<?php echo td() ?>/img/button_intro_study_1.jpg'" style="cursor:pointer;"><!--
+                                <?php endif; ?>
+                                --></a>
+                        </span>
+            </div>
+
+        </div>
+        <div id="con_01">
+            <a href="<?php echo home_url(); ?>">
+                <img src="<?php echo td() ?>/img/liberty.jpg">
+            </a>
         </div>
     </div>
 </div>

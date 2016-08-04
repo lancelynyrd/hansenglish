@@ -26,13 +26,13 @@
 
             <br><br><br><br>
             <div class="content-list-text"><p>2. 打开注册页面如图，如果有microsoft账号也可以通过授权直接登录，<br>&nbsp; &nbsp; &nbsp;这个下面介绍，先说注册，姓、名、邮箱都是必填的，邮箱可以填常用邮箱</p></div>
-            <div class="content-list-media"><img src="<?php tde() ?>/img/skype/reg_2.jpg" width="30%""></div>
+            <div class="content-list-media"><img src="<?php tde() ?>/img/skype/reg_2.jpg" width="30%"></div>
 
             <br><br><br><br>
             <div class="content-list-text"><p>3. 看填资料，不必所有都填，只需要填国家、语言、用户名、密码，
                     <br>
                     &nbsp; &nbsp; &nbsp;因为所有skype用户都能看到个人资料，所以为了隐私可以不填其他信息比如电话等</p></div>
-            <div class="content-list-media"><img src="<?php tde() ?>/img/skype/reg_3.jpg" width="30%"></div></div>
+            <div class="content-list-media"><img src="<?php tde() ?>/img/skype/reg_3.jpg" width="30%"></div>
 
             <br><br><br><br>
             <div class="content-list-text"><p>4. 验证码这里要看清楚了，我第一次还填错了，个人觉得验证码还很有个性，如图是两个图，
@@ -55,7 +55,8 @@
             <hr>
 
             <br><br><br><br>
-            <div class="exp-content-block"><h2 class="exp-content-head"><a href="javascript:;" name="section-4"></a>skype怎么用microsoft账号登录</h2><div class="exp-content-body">
+            <div class="exp-content-block"><h2 class="exp-content-head"><a href="javascript:;" name="section-4"></a>skype怎么用microsoft账号登录</h2>
+                <div class="exp-content-body">
 
                     <br><br><br><br>
                     <div class="content-list-text"><p>1. 上面提到了可以直接用microsoft账号登录skype，但中间有个授权的步骤，如图在注册页面，点击标注那里</p></div>
@@ -92,6 +93,8 @@
                             </div>
                         </div>
                     </div>
+                </div>
+            </div>
         </td>
     </tr>
 </table>

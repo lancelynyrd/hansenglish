@@ -4,10 +4,6 @@ section.content {
     background-color: white;
     box-sizing: border-box;
 }
-
-
-
-
 .front .content .data > section img {
     width: 100%;
     height: auto;

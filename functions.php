@@ -15,8 +15,13 @@ add_action( 'wp_enqueue_scripts', function () {
     wp_enqueue_style( 'layout', td() . '/css/layout.css' );
     wp_enqueue_style( 'module', td() . '/css/module.css' );
     wp_enqueue_script( 'wp-util' );
+    if (strpos( seg(0), 'm-ch-') !== false ) {
+        wp_enqueue_style( 'm-ch-header', td() . '/css/m-ch-header.css' );
+    }else{
+        wp_enqueue_style( 'module.header', td() . '/css/module.header.css' );
+    }
     /** Pages that use bootstrap */
-    if ( is_front_page() || seg(0) == 'reservation' || seg(0) == 'enrollment' || seg(0) == 'user-log-in' || seg(0) == 'user-register') {
+    if ( is_front_page() || seg(0) == 'reservation' || seg(0) == 'enrollment' || seg(0) == 'user-log-in' || seg(0) == 'user-register' || seg(0) == 'm-ch-user-log-in' || seg(0) == 'm-ch-user-register' || seg(0) == 'm-ch-reservation' ) {
         wp_enqueue_style( 'bootstrap', td() . '/css/bootstrap/css/bootstrap.min.css' );
         wp_enqueue_script( 'tether', td() . '/css/bootstrap/js/tether.min.js' );
         wp_enqueue_script( 'bootstrap', td() . '/css/bootstrap/js/bootstrap.min.js', array(), false, true );
@@ -45,6 +50,7 @@ abc()->registerRoute(
         'm-ch-index','m-ch-how-study','m-ch-use-skype','m-ch-free-class','m-ch-fee','m-ch-what-is-en','m-ch-hongbao',
         'm-ch-class-detail-1','m-ch-class-detail-2','m-ch-class-detail-3',
         'm-ch-class-detail-4','m-ch-class-detail-5','m-ch-class-detail-6',
+        'm-ch-user-log-in','m-ch-user-register','m-ch-user-update','m-ch-reservation'
     ]
 );
 

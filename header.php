@@ -14,14 +14,15 @@
     <?php wp_head();?>
 </head>
 
-<body <?php body_class(); ?>>
+<body <?php body_class(); ?> >
+<section id="main">
 <header>
     <div id="wrap">
         <?php if(seg(0) == "m-index") {
             
         }
         elseif ( strpos( seg(0), 'm-ch-') !== false ) {
-
+            include "part/m-ch-header.php";
         }
         else{
             include "part/default-header.php";
@@ -29,5 +30,4 @@
         ?>
     </div>
 </header>
-<section id="main">
 

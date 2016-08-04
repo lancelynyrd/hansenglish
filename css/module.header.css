@@ -9,8 +9,8 @@
     height: 215px;
 }
 #con_01 {
+    position: absolute;
     height: 100%;
-    width: 100%;
     margin: 0;
     padding: 0;
     float: left;
@@ -108,8 +108,8 @@
 @media all and (min-width: 860px) {
 
 }
-@media all and (min-width: 1160px) {
+@media all and (min-width: 1120px) {
     #sub_02 {
-        width: 65%;
+        width: 100%;
     }
 }
