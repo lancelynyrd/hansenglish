@@ -1,6 +1,7 @@
 </section><!--/#main-->
 
 <footer>
+    <hr>
     <br>
         <center>
             <font size="3" color="black" face="黑体">

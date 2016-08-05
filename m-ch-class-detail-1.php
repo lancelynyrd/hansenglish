@@ -21,4 +21,4 @@
 <div width="100%" align="center">
     <img src="<?php echo td() ?>/img/class/corse_1_2.jpg">
 </div>
-<hr>
+

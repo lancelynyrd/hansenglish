@@ -1,3 +1,22 @@
+<style>
+    img.language {
+        width: 100%;
+        padding: 20px 0;
+    }
+    .flag {
+        margin: 50px 0 20px;
+    }
+    .flag .china,
+    .flag .korea {
+        width: 100%;
+        height: auto;
+    }
+    .flag tr td {
+        padding: 5px;
+    }
+</style>
+
+
 <table width="100%" bgcolor="white" border="0" cellspacing="0" cellpadding="0" >
     <tr>
         <td  width="100%" alt=""  cellspadding="0" cellspacing="0" align="center">
@@ -8,38 +27,19 @@
 
 
 <table width="100%" bgcolor="#5e5307" border="0" cellspacing="0" cellpadding="0" >
-
     <tr>
-        <td  width="100%" height="300px" alt=""  cellspadding="0" cellspacing="0" align="center">
-            <img src="<?php echo td() ?>/m_img/language.jpg" width="100%" alt="" / align="center">
+        <td alt=""  cellspadding="0" cellspacing="0" align="center">
+            <img src="<?php echo td() ?>/m_img/language.jpg" class="language" alt="" / align="center">
         </td>
     </tr>
 </table>
-
-<br><br><br><br><br><br>
-
-
-<table width="100%" bgcolor="white" border="0" cellspacing="0" cellpadding="0" >
-
+<table class="flag" width="100%" bgcolor="white" border="0" cellspacing="0" cellpadding="0" >
     <tr>
-        <td  width="20%" alt=""  cellspadding="0" cellspacing="0" align="center">
-            <!-- ë¹ˆê³µê? -->
+        <td alt=""  cellspadding="0" cellspacing="0" align="center">
+            <a href="m-ch-index"><img class="china" src="<?php echo td() ?>/m_img/ch_flag.jpg"  border="0"></a>
         </td>
-
-        <td  width="20%" alt=""  cellspadding="0" cellspacing="0" align="center">
-            <a href="m-ch-index"><img src="<?php echo td() ?>/m_img/ch_flag.jpg"  border="0"></a>
-        </td>
-
-        <td  width="20%" alt=""  cellspadding="0" cellspacing="0" align="center">
-            <!-- ë¹ˆê³µê? -->
-        </td>
-
-        <td  width="20%" alt=""  cellspadding="0" cellspacing="0"align="center">
-            <a href="m-ko-index"><img src="<?php echo td() ?>/m_img/ko_flag.jpg"  border="0"></a>
-        </td>
-
-        <td  width="20%" alt=""  cellspadding="0" cellspacing="0" align="center">
-            <!-- ë¹ˆê³µê? -->
+        <td alt=""  cellspadding="0" cellspacing="0"align="center">
+            <a href="m-ko-index"><img class="korea" src="<?php echo td() ?>/m_img/ko_flag.jpg"  border="0"></a>
         </td>
     </tr>
 </table>

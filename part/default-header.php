@@ -31,6 +31,7 @@
                     <a href="<?php echo home_url() ?>/user-register" ><img src="<?php echo td() ?>/img/header-menu/hansheader_08.jpg" style="cursor: pointer"></a>
                 <?php endif; ?>
                 <a href="<?php vc_url()?>" target="_blank"><img src="<?php echo td() ?>/img/header-menu/hansheader_12.jpg" style="cursor: pointer"></a>
+                <img src="<?php echo td() ?>/img/header-menu/hansheader_13.jpg" >
             </div>
         </div>
         <div id="sub_02">

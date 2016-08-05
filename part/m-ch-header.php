@@ -5,6 +5,7 @@
 
 <div class="header-inner">
     <div id='con_01'>
+        <div class="mlogo_button"><a href="<?php echo home_url().'/m-ch-index'; ?>"></a></div>
         <img class="mlogo" src="<?php echo td() ?>/m_img/mobile_logo_1.jpg" width="100%">
     </div>
     <nav>
@@ -57,7 +58,7 @@
                 <a href="m-ch-reservation"><img src="<?php echo td() ?>/m_img/m_reservation.jpg"  border="0"></a>
             </li>
             <li class="close-btn">
-                <div><a style="cursor: pointer"><?php _text('Close')?></a></div>
+                <a><img src="<?php echo td() ?>/m_img/m_close.jpg"  border="0"></a>
             </li>
         </ul>
     </div>

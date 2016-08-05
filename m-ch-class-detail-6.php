@@ -22,5 +22,3 @@
     <img src="<?php echo td() ?>/img/class/corse_6_2.jpg">
 </div>
 
-
-<hr>

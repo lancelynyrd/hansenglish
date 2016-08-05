@@ -32,4 +32,3 @@
     <img src="<?php tde() ?>/img/class/corse_1_2.jpg">
 </div>
 
-<hr>

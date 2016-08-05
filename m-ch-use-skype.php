@@ -22,8 +22,8 @@
                     </p>
                 </div>
 
-                <div>
-                    <img src="<?php echo td() ?>/img/skype/reg_1.jpg" >
+                <div class="content-list-media">
+                    <img src="<?php echo td() ?>/img/skype/reg_1.jpg" width="100%">
                 </div>
 
 
@@ -89,15 +89,11 @@
                                         <img src="<?php echo td() ?>/img/skype/reg_2_5.jpg" width="100%">
                                     </div>
                                 </div>
-
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </td>
     </tr>
 </table>
-
-
-
-<br><br><br><br>
-
-
-
-<hr>

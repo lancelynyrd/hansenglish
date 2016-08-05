@@ -32,4 +32,3 @@
 <div width="100%" align="center">
     <img src="<?php tde() ?>/img/class/corse_3_2.jpg">
 </div>
-<hr>

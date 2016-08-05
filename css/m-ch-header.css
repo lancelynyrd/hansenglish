@@ -1,6 +1,17 @@
 header #con_01 .mlogo {
     display: block;
 }
+header #con_01 .mlogo_button {
+    position: absolute;
+    height: 100%;
+    width: 49%;
+    left: 17%;
+}
+header #con_01 .mlogo_button a {
+    display: block;
+    height: 100%;
+    width: 100%;
+}
 
 header .header-inner {
     position: relative;
@@ -47,6 +58,7 @@ header .header-inner nav > img {
 }
 
 #con_01 {
+    position: relative;
     width: 100%;
     margin: 0;
     padding: 0;
@@ -56,13 +68,6 @@ header .header-inner nav > img {
     width: 100%;
     margin: 0;
     padding: 0;
-}
-#con_02 ul li {
-    list-style-type: none;
-}
-#con_02 ul li a {
-    display: block;
-    text-decoration: none;
 }
 #con_02 ul li a img {
     height: 30px;
