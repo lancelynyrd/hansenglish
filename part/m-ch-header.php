@@ -37,25 +37,25 @@
     <div id='con_02'>
         <ul>
             <li>
-                <a href="m-ch-index"><img src="<?php echo td() ?>/m_img/m_bt_home_1.jpg" border="0"></a>
+                <a href="m-ch-index"><img src="<?php echo td() ?>/m_img/m_bt_home<?php echo seg(0) == "m-ch-index" ? '_1' : null; ?>.jpg" border="0"></a>
             </li>
             <li>
-                <a href="m-ch-how-study"><img src="<?php echo td() ?>/m_img/m_bt_intro_study.jpg"  border="0"></a>
+                <a href="m-ch-how-study"><img src="<?php echo td() ?>/m_img/m_bt_intro_study<?php echo seg(0) == "m-ch-how-study" ? '_1' : null; ?>.jpg"  border="0"></a>
             </li>
             <li>
-                <a href="m-ch-class-detail-1"><img src="<?php echo td() ?>/m_img/m_bt_how_study.jpg"  border="0"></a>
+                <a href="m-ch-class-detail-1"><img src="<?php echo td() ?>/m_img/m_bt_how_study<?php echo seg(0) == "m-ch-class-detail-1" ? '_1' : null; ?>.jpg"  border="0"></a>
             </li>
             <li>
-                <a href="m-ch-use-skype"><img src="<?php echo td() ?>/m_img/m_bt_skype.jpg"  border="0"></a>
+                <a href="m-ch-use-skype"><img src="<?php echo td() ?>/m_img/m_bt_skype<?php echo seg(0) == "m-ch-use-skype" ? '_1' : null; ?>.jpg"  border="0"></a>
             </li>
             <li>
-                <a href="m-ch-free-class"><img src="<?php echo td() ?>/m_img/m_bt_free_class.jpg"  border="0"></a>
+                <a href="m-ch-free-class"><img src="<?php echo td() ?>/m_img/m_bt_free_class<?php echo seg(0) == "m-ch-free-class" ? '_1' : null; ?>.jpg"  border="0"></a>
             </li>
             <li>
-                <a href="m-ch-fee"><img src="<?php echo td() ?>/m_img/m_bt_fee.jpg"  border="0"></a>
+                <a href="m-ch-fee"><img src="<?php echo td() ?>/m_img/m_bt_fee<?php echo seg(0) == "m-ch-fee" ? '_1' : null; ?>.jpg"  border="0"></a>
             </li>
             <li>
-                <a href="m-ch-reservation"><img src="<?php echo td() ?>/m_img/m_reservation.jpg"  border="0"></a>
+                <a href="m-ch-reservation"><img src="<?php echo td() ?>/m_img/m_reservation<?php echo seg(0) == "m-ch-reservation" ? '_1' : null; ?>.jpg"  border="0"></a>
             </li>
             <li class="close-btn">
                 <a><img src="<?php echo td() ?>/m_img/m_close.jpg"  border="0"></a>

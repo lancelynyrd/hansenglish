@@ -1,7 +1,4 @@
-<style type="text/css">
-    #aa { width:100%; height:100px; border:0px solid gray; position:relative; }
-    #ss { width:100%; height:100px; background-color:red; position:absolute; right:0px; bottom:0px; }
-</style>
+
 
 <div id='aa'>
     <div class='ss' align="center" style=' height: 100px;  background:url(<?php tde() ?>/img/class/back.jpg);'>
@@ -15,6 +12,7 @@
 </div>
 
 <br><br><br><br>
+
 <div width="100%" align="center">
     <font size="6" face="黑体" color="black">课程 介绍</font>
 </div>
