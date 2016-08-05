@@ -15,6 +15,15 @@
 </head>
 
 <body <?php body_class(); ?> >
+<?php if ( user()->login() ){
+    if ( user()->admin() ){
+        include "part/admin-menu.php";
+    }
+}
+
+?>
+
+
 <section id="main">
 <header>
     <div id="wrap">

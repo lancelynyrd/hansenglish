@@ -1,0 +1,66 @@
+
+.translate-text {
+    position: relative;
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+.translate-text:hover {
+    border: 1px solid red;
+    cursor: pointer;
+}
+
+.translate-text .dashicons-welcome-write-blog {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: black;
+    font-size: 1em;
+}
+
+.translate-text:hover .dashicons-welcome-write-blog {
+    display: block;
+}
+
+
+.translate-text-edit {
+    position: fixed;
+    z-index: 987654321;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+
+.translate-text-edit textarea {
+    display: block;
+    width: 100%;
+    height: 8em;
+    background-color: white;
+    color: black;
+    font-size: 1rem;
+}
+
+.translate-text-edit input[type='submit'] {
+    display: block;
+    width: 100%;
+    background-color: #dbdbdb;
+    color: black;
+    font-size: 1rem;
+}
+
+
+.translate-text-edit .original-text {
+    width: 100%;
+    background-color: #fffae7;
+    color: black;
+    font-size: 1rem;
+    text-align: left;
+}
+
+.translate-text-edit .html-content {
+    display: inline;
+}

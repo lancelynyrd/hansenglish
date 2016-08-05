@@ -20,6 +20,9 @@ add_action( 'wp_enqueue_scripts', function () {
     }else{
         wp_enqueue_style( 'module.header', td() . '/css/module.header.css' );
     }
+    wp_enqueue_style( 'module.translate', td() . '/css/module.translate.css' );
+    wp_enqueue_script( 'wp-util' );
+
     /** Pages that use bootstrap */
     if ( is_front_page() || seg(0) == 'reservation' || seg(0) == 'enrollment' || seg(0) == 'user-log-in' || seg(0) == 'user-register' || seg(0) == 'm-ch-user-log-in' || seg(0) == 'm-ch-user-register' || seg(0) == 'm-ch-reservation' ) {
         wp_enqueue_style( 'bootstrap', td() . '/css/bootstrap/css/bootstrap.min.css' );
@@ -161,3 +164,22 @@ function vc_url( $roomname = 'VC TEST Room' ) {
     echo $url;
 }
 
+add_action('admin_menu', function () {
+    add_menu_page(
+        __('Hans Theme Settings', 'x5'),
+        __('Hans Theme', 'x5'),
+        'manage_options',
+        'hans_theme_settings', // slug id. 메뉴가 클릭되면 /wp-admin/philgo-usage 와 같이 slug 로 URL 경로가 나타남.
+        'hans_admin_menu',
+        'dashicons-text',
+        '23.45'
+    );
+} );
+
+
+function hans_admin_menu() {
+    if ( !current_user_can( 'manage_options' ) )  {
+        wp_die( __( 'You do not have sufficient permissions to access this page.' ) );
+    }
+    include get_stylesheet_directory() . '/settings.php';
+}
