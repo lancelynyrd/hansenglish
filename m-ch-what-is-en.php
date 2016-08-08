@@ -34,7 +34,6 @@
 
             <object class="video_clip">
                 <param name="Filename" value="img/mv/woo.mp4">
-                <param name="Autosize" value="true">
                 <param name="AutoStart" value="true">
                 <param name="ShowControls" value="true">
                 <embed src="<?php echo td() ?>/img/mv/woo.mp4" showcontrols="true" autostart>
