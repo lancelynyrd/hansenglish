@@ -1,0 +1,93 @@
+aside.sidebar {
+    overflow: auto;
+    z-index: 1234;
+    margin-bottom: 5px;
+}
+
+.sidebar ul {
+    z-index: 1234567890;
+    position:relative;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.sidebar ul li {
+    float:left;
+    width: 20%;
+    text-align: center;
+}
+.sidebar ul li a {
+    display: block;
+    position: relative;
+    overflow: auto;
+}
+.sidebar ul li img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+.sidebar ul li a > span {
+    text-decoration: none;
+    position: absolute;
+    font-size: 10px;
+    right:0;
+    left: 0;
+    bottom: .4em;
+    color: #fff;
+}
+.sidebar ul li:last-child a > span {
+    color: #3a2123;
+}
+
+@media all and ( min-width: 480px ) {
+    .sidebar ul li a > span {
+        font-size: 12px;
+    }
+
+}
+
+@media all and ( min-width: 600px ) {
+    aside.sidebar {
+        margin-bottom: 0;
+    }
+    .sidebar ul {
+        position:fixed;
+        right: 0;
+        bottom: 0;
+    }
+    .sidebar ul li {
+        float: left;
+        margin-bottom: .2em;
+        border: 0;
+        width: 100px;
+    }
+    .sidebar ul li img {
+        width: 95%;
+        height: auto;
+    }
+    .sidebar ul li a > span {
+        font-size: 13px;
+    }
+}
+
+
+@media all and ( min-width: 1200px ) {
+    .sidebar {
+        position: absolute;
+        top: 150px;
+        left: 50px;
+        right: auto;
+        bottom: auto;
+    }
+    .sidebar ul {
+        position:relative;
+    }
+    .sidebar ul li {
+        float: none;
+        margin-bottom: .2em;
+    }
+    .home .sidebar {
+        left: .6em; /* content padding */
+    }
+}

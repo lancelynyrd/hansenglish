@@ -39,4 +39,4 @@
         ?>
     </div>
 </header>
-
+    <?php include 'part/aside.php'; ?>
