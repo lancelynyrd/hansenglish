@@ -30,7 +30,7 @@
 <div id='content'>
     <div id='con_03' style="text-align: center;">
         <br><br>
-        <video controls="" autoplay="" name="media" class="video_clip">
+        <video controls autoplay class="video_clip">
             <source src="<?php echo td() ?>/img/mv/woo.mp4" type="video/mp4">
         </video>
         <br><br>
