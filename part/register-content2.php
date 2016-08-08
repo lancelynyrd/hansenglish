@@ -9,6 +9,7 @@ wp_enqueue_script( 'register', td() . '/js/register.js', array('jquery') );
             <?php wp_nonce_field('register'); ?>
 
             <input type="hidden" name="login" value="1">
+            <input type="hidden" name="skype" value="ve">
             <div class="header-detail"><?php _text("YOUR DETAILS") ?></div>
             <div class="col-sm-6 left">
             <div class="line">
@@ -49,11 +50,6 @@ wp_enqueue_script( 'register', td() . '/js/register.js', array('jquery') );
             <div class="line">
                 <label for="landline"><?php _text('Landline Number')?></label>
                 <div class="text"><input type="number" name="landline" maxlength="64" id="landline" tabindex="101" placeholder="<?php _text('Landline number')?>" value="<?php echo user()->landline?>"></div>
-            </div>
-
-            <div class="line">
-                <label for="skype"><?php _text('Skype ID')?></label>
-                <div class="text"><input type="text" name="skype" maxlength="64" id="skype" tabindex="101"  placeholder="<?php _text('Skype ID')?>" value="<?php echo user()->skype?>"></div>
             </div>
 
             </div>
