@@ -1,3 +1,6 @@
+section .user-update.content-one > div {
+    max-width: 980px;
+}
 section .user-update.content-one .banner {
     position: absolute;
     display: inline-block;

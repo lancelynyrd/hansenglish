@@ -1,3 +1,7 @@
+section .log-in.content-one > div {
+    max-width: 980px;
+}
+
 section .log-in.content-one .banner {
     position: absolute;
     display: inline-block;

@@ -1,3 +1,6 @@
+section .register.content-one > div {
+    max-width: 980px;
+}
 section .register.content-one div > img {
     width: 100%;
     height: auto;
