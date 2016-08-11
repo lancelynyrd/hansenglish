@@ -8,15 +8,13 @@
 
 }
 
-.reservation.content-two .row .left {
+.reservation.content-two .row .left,
+.reservation.content-two .row .right{
     text-align: left;
 }
 
-.reservation.content-two .row .right {
-    text-align: right;
-}
-
 .reservation.content-two .row .title {
+    font-size: 16px;
     margin: 1rem 0 1rem;
 }
 
@@ -411,6 +409,9 @@ nav.month .show-month a:hover {
     .reservation.content-two .reminder-text {
         font-size: 14px;
     }
+    .reservation.content-two .row .title {
+        font-size: 20px;
+    }
 }
 
 @media all and (min-width: 420px) {
@@ -424,12 +425,21 @@ nav.month .show-month a:hover {
     .reservation.content-two img.reminder {
         top: 40%;
     }
+    .reservation.content-two .row .title {
+        font-size: 24px;
+    }
 
 }
 
 @media all and (min-width: 544px) {
     .reservation.content-two .reminder-text {
         font-size: 20px;
+    }
+    .reservation.content-two .row .right {
+        text-align: right;
+    }
+    .reservation.content-two .row .title {
+        font-size: 28px;
     }
 }
 
@@ -440,6 +450,9 @@ nav.month .show-month a:hover {
     }
     .reservation.content-two img.reminder {
         top: 35%;
+    }
+    .reservation.content-two .row .title {
+        font-size: 32px;
     }
 }
 
