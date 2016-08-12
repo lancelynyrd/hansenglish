@@ -54,7 +54,7 @@ abc()->registerRoute(
         'm-ch-class-detail-1','m-ch-class-detail-2','m-ch-class-detail-3',
         'm-ch-class-detail-4','m-ch-class-detail-5','m-ch-class-detail-6',
         'm-ch-user-log-in','m-ch-user-register','m-ch-user-update','m-ch-reservation',
-        'testing'
+        'testing','m-ch-user-password-lost'
     ]
 );
 

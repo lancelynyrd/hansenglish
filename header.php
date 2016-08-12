@@ -27,7 +27,8 @@
 <section id="main">
     <header>
         <div id="wrap">
-            <?php if(seg(0) == "m-index") {
+            <?php
+            if(seg(0) == "m-index") {
 
             }
             elseif ( strpos( seg(0), 'm-ch-') !== false ) {

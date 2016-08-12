@@ -1,6 +1,16 @@
 <?php
 wp_enqueue_script( 'log-in-content2', td() . '/js/log-in-content2.js', array('jquery'), false, true );
 wp_enqueue_style('log-in-content2', td() . '/css/log-in-content2.css');
+$view_mode = null;
+if(seg(0) == "m-index") {
+
+}
+elseif ( strpos( seg(0), 'm-ch-') !== false ) {
+    $view_mode = "m-ch-";
+}
+else{
+    $view_mode = null;
+}
 
 ?>
 <section class="log-in content-two">
@@ -32,7 +42,7 @@ wp_enqueue_style('log-in-content2', td() . '/css/log-in-content2.css');
                 </fieldset>
 
                 <div class="lost-password-button">
-                    <a href="<?php echo home_url('/user-password-lost')?>"><?php _text('Lost Password?')?></a>
+                    <a href="<?php echo home_url('/'.$view_mode.'user-password-lost')?>"><?php _text('Lost Password?')?></a>
                 </div>
 
                 <fieldset class="form-group">
@@ -53,9 +63,8 @@ wp_enqueue_style('log-in-content2', td() . '/css/log-in-content2.css');
                 <input class="btn btn-primary" type="submit" value="<?php _text('LOGIN')?>" tabindex="121">
 
             </form>
+            <a class="register" href="<?php echo home_url('/'. $view_mode .'user-register')?>"><?php _text('Create an Account')?></a>
 
-            <a class="register" href="<?php echo home_url('/user-register')?>"><?php _text('Create an Account')?></a>
-            
         </div>
     </div>
 </section>

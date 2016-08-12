@@ -16,6 +16,11 @@ if ( $_SERVER['REQUEST_METHOD'] == 'POST' ) {
 include 'part/log-in-content1.php';
 ?>
 
+<style>
+
+
+</style>
+
 
 
 <section class="lost-password">
@@ -32,7 +37,7 @@ include 'part/log-in-content1.php';
             </div>
 
             <div class="line cancel">
-                <div class="text abc-button cancel"><a href="<?php echo home_url() ?>">Cancel</a></div>
+                <div class="text abc-button cancel"><a href="<?php echo home_url('/m-ch-index') ?>">Cancel</a></div>
             </div>
 
         </form>
