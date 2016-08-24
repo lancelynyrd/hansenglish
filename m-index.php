@@ -1,6 +1,6 @@
 <style>
     img.language {
-        width: 70%;
+        width: 100%;
         padding: 20px 0;
     }
     .flag {
@@ -8,7 +8,7 @@
     }
     .flag .china,
     .flag .korea {
-        width: 100%;
+        width: 70%;
         height: auto;
     }
     .flag tr td {
