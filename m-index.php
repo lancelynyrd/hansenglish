@@ -1,6 +1,6 @@
 <style>
     img.language {
-        width: 100%;
+        width: 70%;
         padding: 20px 0;
     }
     .flag {
