@@ -1,5 +1,15 @@
 
 
+<style>
+    #con_04 {
+        width: 100%;
+        background-color: gray;
+        text-align: center;
+        margin: 0;
+        padding: 0;
+    }
+</style>
+
 <div id='aa'>
     <div class='ss' align="center" style=' height: 100px;  background:url(<?php tde() ?>/img/class/back.jpg);'>
         <a href="class-detail-1"><img src="<?php tde() ?>/img/class/10_1.jpg" border="0"></a><!--
@@ -11,22 +21,20 @@
     </div>
 </div>
 
-<br><br><br><br>
+<div id='con_04'>
 
-<div width="100%" align="center">
-    <font size="6" face="黑体" color="black">课程 介绍</font>
+    <table width="100%" align="center" border="0" style="background-color: #d8dad8" cellpadding="0"  cellspacing="0" >
+        <tr>
+            <td width="15%"  style="background:<?php tde() ?>/img/back_pattern.jpg">
+            </td>
+
+            <td width="70%" align="center" bgcolor="white">
+                <img src="<?php tde() ?>/img/class/course_1.jpg" width="800px">
+            </td>
+
+            <td width="15%"  background="<?php tde() ?>/img/back_pattern.jpg">
+            </td>
+        </tr>
+
+    </table>
 </div>
-
-<div width="100%" align="center">
-    <img src="<?php tde() ?>/img/class/title_1.jpg">
-</div>
-
-<br><br>
-
-<div width="100%" align="center">
-    <img src="<?php tde() ?>/img/class/corse_1_1.jpg">
-</div>
-<div width="100%" align="center">
-    <img src="<?php tde() ?>/img/class/corse_1_2.jpg">
-</div>
-

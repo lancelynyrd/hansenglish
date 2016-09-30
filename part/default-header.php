@@ -11,6 +11,28 @@
 
     }
 </script>
+
+
+<style>
+    div#sub_02 span {
+        float: right;
+        padding: 5px 30px;
+
+    }
+    div#sub_02 span:hover {    /* this is the code that changes the color if the mouse is inside the button */
+        background-color: #b8ecfc;
+    }
+    div#sub_02 span a {    /* this is the code that changes the color if the mouse is inside the button */
+        font-family:  Segoe UI, Simhei, Microsoft YaHei, 微软细黑, 宋体, sans-serif;
+        font-size: 15px;
+        line-height: 1.4;
+        color: green;
+    }
+
+    a:link {color:black; text-decoration:none;}
+    a:visited {color:black; text-decoration:none;}
+
+</style>
 <div id="content">
     <div id="con_02">
         <div id="sub_01">
@@ -36,70 +58,12 @@
         </div>
         <div id="sub_02">
             <div>
-                        <span>
-                            <a href="reservation"><!--
-                                <?php if ( seg(0) == 'reservation' ) : ?>
-                                --><img src="<?php echo td() ?>/img/button_reservation_2.jpg" border="0"><!--
-                                <?php else : ?>
-                                --><img src="<?php echo td() ?>/img/button_reservation.jpg" border="0" onmouseout="this.src='<?php echo td() ?>/img/button_reservation.jpg'" onmouseover="this.src='<?php echo td() ?>/img/button_reservation_1.jpg'" style="cursor:pointer;"><!--
-                                <?php endif; ?>
-                                --></a>
-                        </span>
-                        <span>
-                            <a href="use-skype"><!--
-                                <?php if ( seg(0) == 'use-skype' ) : ?>
-                                --><img src="<?php echo td() ?>/img/button_skype_2.jpg" border="0"><!--
-                                <?php else : ?>
-                                --><img src="<?php echo td() ?>/img/button_skype.jpg" border="0" onmouseout="this.src='<?php echo td() ?>/img/button_skype.jpg'" onmouseover="this.src='<?php echo td() ?>/img/button_skype_1.jpg'" style="cursor:pointer;"><!--
-                                <?php endif; ?>
-                                --></a>
-                        </span>
-                        <span>
-                            <a href="free-class"><!--
-                                <?php if ( seg(0) == 'free-class' ) : ?>
-                                --><img src="<?php echo td() ?>/img/button_free_class_2.jpg" border="0"><!--
-                                <?php else : ?>
-                                --><img src="<?php echo td() ?>/img/button_free_class.jpg" border="0" onmouseout="this.src='<?php echo td() ?>/img/button_free_class.jpg'" onmouseover="this.src='<?php echo td() ?>/img/button_free_class_1.jpg'" style="cursor:pointer;"><!--
-                                <?php endif; ?>
-                                --></a>
-                        </span>
-                        <span>
-                            <a href="fee"><!--
-                                <?php if ( seg(0) == 'fee' ) : ?>
-                                --><img src="<?php echo td() ?>/img/button_fee_2.jpg" border="0"><!--
-                                <?php else : ?>
-                                --><img src="<?php echo td() ?>/img/button_fee.jpg" border="0" onmouseout="this.src='<?php echo td() ?>/img/button_fee.jpg'" onmouseover="this.src='<?php echo td() ?>/img/button_fee_1.jpg'" style="cursor:pointer;"><!--
-                                <?php endif; ?>
-                                --></a>
-                        </span>
-            </div>
-            <div>
-                        <span><a href="<?php echo home_url() ?>"><!--
-                                <?php if ( is_front_page() ) : ?>
-                                --><img src="<?php echo td() ?>/img/button_home_2.jpg" border="0"><!--
-                                <?php else : ?>
-                                --><img src="<?php echo td() ?>/img/button_home.jpg" border="0" onmouseout="this.src='<?php echo td() ?>/img/button_home.jpg'" onmouseover="this.src='<?php echo td() ?>/img/button_home_1.jpg'" style="cursor:pointer;"><!--
-                                <?php endif; ?>
-                                --></a>
-                        </span>
-                        <span>
-                            <a href="how-study"><!--
-                                <?php if ( seg(0) == 'how-study' ) : ?>
-                                --><img src="<?php echo td() ?>/img/button_how_study_2.jpg" border="0"><!--
-                                <?php else : ?>
-                                --><img src="<?php echo td() ?>/img/button_how_study.jpg" border="0" onmouseout="this.src='<?php echo td() ?>/img/button_how_study.jpg'" onmouseover="this.src='<?php echo td() ?>/img/button_how_study_1.jpg'" style="cursor:pointer;"><!--
-                                <?php endif; ?>
-                                --></a>
-                        </span>
-                        <span>
-                            <a href="class-detail-1"><!--
-                                <?php if ( strpos( seg(0), 'class-detail') !== false ) : ?>
-                                --><img src="<?php echo td() ?>/img/button_intro_study_2.jpg" border="0"><!--
-                                <?php else : ?>
-                                --><img src="<?php echo td() ?>/img/button_intro_study.jpg" border="0" onmouseout="this.src='<?php echo td() ?>/img/button_intro_study.jpg'" onmouseover="this.src='<?php echo td() ?>/img/button_intro_study_1.jpg'" style="cursor:pointer;"><!--
-                                <?php endif; ?>
-                                --></a>
-                        </span>
+                    <span font class="font_01"><a href="reservation"><font color="#0b5065">我的课堂</font></a></span>
+                    <span font class="font_01"><a href="fee"><font color="#0b5065">学 费</font></a></span>
+                    <span font class="font_01"><a href="ve"><font color="#0b5065">VE课堂</font></a></span>
+                    <span font class="font_01"><a href="class-detail-1"><font color="#0b5065">课程介绍</font></a></span>
+                    <span font class="font_01"><a href="how-study"><font color="#0b5065">上课流程</font></a></span>
+                    <span font class="font_01"><a href="home"><font color="#0b5065">首 页</font></a></span>
             </div>
 
         </div>

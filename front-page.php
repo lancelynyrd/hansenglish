@@ -1,74 +1,90 @@
-<?php
-get_header();
-?>
-    <script type='text/javascript'>
-        // 이미지 목록을 담아놓을 배열객체 선언
-        var bannerImg = new Array();
-        // 이미지 객체를 등록
-        bannerImg[0]='<?php tde() ?>/img/home_banner_5.jpg';
-        bannerImg[1]='<?php tde() ?>/img/home_banner_1.jpg';
-        bannerImg[2]='<?php tde() ?>/img/home_banner_2.jpg';
-        bannerImg[3]='<?php tde() ?>/img/home_banner_3.jpg';
-        // 출력된 이미지 정보를 담을 변수 초기값으로 0 번 배열을 가리킴
-        var newBanner = 0;
-        // 전체 이미지 객수를 변수에 초기화
-        var totalBan = bannerImg.length;
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
 
-        // 이미지 반복 함수
-        function cycleBan()
-        {
-            // 출력되는 이미지의 배열값을 1 증가시킴
-            newBanner++;
-            // 배열의 값보다 높은 값이되면 초기 값으로 바꿈
-            if (newBanner == totalBan)
-            {
-                newBanner = 0;
+<html>
+<head>
+
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Hans English 在线一对一英语 </title>
+    <meta name="description" content="好外教英语口语培训网，是为英语学习者提供真人外教在线1对1英语口语培训的专业品牌.聘用全球顶尖的欧美外教,使用独立自主研发的课程教材,网络在线授课,您可以24小时随时随地预约上课,提
+            升英语口语水平." >
+    <meta name="keywords" content="好外教,欧美外教,在线外教课,英语口语,在线英语培训,外教一对一,商务英语培训,1对1外教课" />
+
+
+    <script type="text/javascript">
+        var mobileKeyWords = new Array('iPhone', 'iPod', 'BlackBerry', 'Android', 'Windows CE', 'LG', 'MOT', 'SAMSUNG', 'SonyEricsson');
+        for (var word in mobileKeyWords){
+            if (navigator.userAgent.match(mobileKeyWords[word]) != null){
+                location.href = "m_index.html";
+                break;
             }
-            // 이미지 객체에 newBanner 에 지정된 이미지 배열값을 가져다 출력
-            document.banner.src=bannerImg[newBanner];
-            // 2초 주기로 cycleBan 함수를 호출하여 이미지가 반복 되도록 함
-            setTimeout('cycleBan()', 2*1000); //1*1000은 1초 (시간지정)
-        }
 
-        // 윈도우가 로딩된후 cycleBan 함수를 호출
-        window.onload=cycleBan;
+        }
     </script>
 
-    <div id='wrap'>
-        <div id='content'>
+    <style>
+        html,body{width: 100%;height: 100%;margin: 0;padding: 0;}
+        wrap, content {
+            width: 100%;
+            height: 100%;
+            margin: 0;
+            padding: 0;
+        }
+    </style>
 
-            <div id='con_03'>
-                <img src="<?php tde() ?>/img/home_banner_5.jpg" name='banner' width="100%">
-            </div>
 
-            <div id='con_06'>
-                <!-- 공간 띄우기 -->
-            </div>
+</head>
 
-            <div id='con_04'>
-                <div id='sub_03'>
-                    <img src="<?php tde() ?>/img/bg_white.jpg" border="0" width="55%">
-                </div>
-                <div id='sub_04'>
-                    <img src="<?php tde() ?>/img/bg_white.jpg" border="0" width="55%">
-                </div>
 
-            </div>
-            <div id='con_05'>
-                <img src="<?php tde() ?>/img/home_middle_banner_1.jpg" align="right" border="0" width="100%" border="0">
-            </div>
+<body bgcolor="white">
 
-            <div id='con_07'>
-                <!--공간 띄우기 -->
-            </div>
-            <div id='con_08' style="align: center; valign: middle;">
-                <img src="<?php tde() ?>/img/home_2.jpg" width="100%" align="right">
-            </div>
-            <div id='con_09'>
-                <img src="<?php tde() ?>/img/home_3.jpg" width="100%" align="right">
-            </div>
-        </div>
-    </div>
-<?php
-get_footer();
-?>
+<table width="35%" align="center" border="0" cellpadding="0" cellspacing="0">
+    <tr>
+        <td colspan="5">
+            <img src="<?php tde() ?>/img/gate_top.jpg" width="100%">
+        </td>
+    </tr>
+    <tr>
+        <td colspan="5">
+            <br><br><br><!--space-->
+        </td>
+    </tr>
+    <tr>
+        <td width="5%">
+            <!--space-->
+        </td>
+        <td width="30%" align="center">
+            <a href="home"><img src="<?php tde() ?>/img/gate_btn_e.jpg"  width="60%" border="0" onmouseout="this.src='<?php tde() ?>/img/gate_btn_e.jpg'" onmouseover="this.src='<?php tde() ?>/img/gate_btn_e_1.jpg'" style="cursor:pointer;" /></a>
+        </td>
+        <td width="30%" align="center">
+            <a href="k_home"><img src="<?php tde() ?>/img/gate_btn_k.jpg"  width="60%" border="0" onmouseout="this.src='<?php tde() ?>/img/gate_btn_k.jpg'" onmouseover="this.src='<?php tde() ?>/img/gate_btn_k_1.jpg'" style="cursor:pointer;" /></a>
+        </td>
+        <td width="30%" align="center">
+            <a href="h_home"><img src="<?php tde() ?>/img/gate_btn_h.jpg"  width="60%" border="0" onmouseout="this.src='<?php tde() ?>/img/gate_btn_h.jpg'" onmouseover="this.src='<?php tde() ?>/img/gate_btn_h_1.jpg'" style="cursor:pointer;" /></a>
+        </td>
+        <td width="5%">
+            <!--space-->
+        </td>
+    </tr>
+    <tr>
+        <td colspan="5">
+            <br><br><br><!--space-->
+        </td>
+    </tr>
+    <tr>
+        <td colspan="5">
+            <img src="<?php tde() ?>/img/gate_bottom.jpg" width="100%">
+        </td>
+    </tr>
+
+</table>
+
+
+
+
+
+<br><br><br>
+
+</body>
+</html>
+

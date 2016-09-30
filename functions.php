@@ -46,7 +46,8 @@ add_action('after_setup_theme', function () {
 
 abc()->registerRoute(
     [
-        'reservation',
+        'home', 'k_home', 'h_home',
+        've','reservation',
         'how-study','use-skype','free-class','fee',
         'class-detail-1','class-detail-2','class-detail-3','class-detail-4','class-detail-5','class-detail-6',
         'm-index',

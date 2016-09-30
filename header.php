@@ -6,11 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <title>Hans English 在线一对一英语 </title>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Hans English 在线一对一英语 </title>
     <meta name="description" content="好外教英语口语培训网，是为英语学习者提供真人外教在线1对1英语口语培训的专业品牌.聘用全球顶尖的欧美外教,使用独立自主研发的课程教材,网络在线授课,您可以24小时随时随地预约上课,提
             升英语口语水平." >
     <meta name="keywords" content="好外教,欧美外教,在线外教课,英语口语,在线英语培训,外教一对一,商务英语培训,1对1外教课" />
+
+
     <?php wp_head();?>
 </head>
 

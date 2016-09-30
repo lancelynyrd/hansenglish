@@ -43,15 +43,12 @@ body section > div {
 }
 #con_06 {
     width: 100%;
-    height: 80px; <!--공간 띄우기 -->
     margin: 0;
     padding: 0;
     float: left;
 }
 #con_07 {
     width: 100%;
-    height: 80px; <!--공간 띄우기 -->
-    background-color: #989794;
     margin: 0;
     padding: 0;
     float: left;
