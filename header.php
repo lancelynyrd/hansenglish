@@ -31,11 +31,14 @@
     <header>
         <div id="wrap">
             <?php
-            if(seg(0) == "m-index") {
+            if(seg(0) == "m-index" || seg(0) == "h_home") {
 
             }
             elseif ( strpos( seg(0), 'm-ch-') !== false ) {
                 include "part/m-ch-header.php";
+            }
+            elseif ( strpos( seg(0), 'k_home') !== false ) {
+                include "part/k-header.php";
             }
             else{
                 include "part/default-header.php";
