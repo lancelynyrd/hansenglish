@@ -1,45 +1,40 @@
-<style>
-    img.language {
-        width: 100%;
-        padding: 20px 0;
-    }
-    .flag {
-        margin: 50px 0 20px;
-    }
-    .flag .china,
-    .flag .korea {
-        width: 70%;
-        height: auto;
-    }
-    .flag tr td {
-        padding: 5px;
-    }
-</style>
-
-
-<table width="100%" bgcolor="white" border="0" cellspacing="0" cellpadding="0" >
+<table width="100%" align="center" border="0" cellpadding="0" cellspacing="0" style="line-height: normal">
     <tr>
-        <td  width="100%" alt=""  cellspadding="0" cellspacing="0" align="center">
-            <img src="<?php echo td() ?>/m_img/mobile_logo.jpg" width="100%" alt="" / align="center">
+        <td colspan="5">
+            <img src="<?php tde() ?>/img/gate_top.jpg" width="100%">
         </td>
     </tr>
-</table>
-
-
-<table width="100%" bgcolor="#5e5307" border="0" cellspacing="0" cellpadding="0" >
     <tr>
-        <td alt=""  cellspadding="0" cellspacing="0" align="center">
-            <img src="<?php echo td() ?>/m_img/language.jpg" class="language" alt="" / align="center">
+        <td colspan="5">
+            <br><br><br><!--space-->
         </td>
     </tr>
-</table>
-<table class="flag" width="100%" bgcolor="white" border="0" cellspacing="0" cellpadding="0" >
     <tr>
-        <td alt=""  cellspadding="0" cellspacing="0" align="center">
-            <a href="m-ch-index"><img class="china" src="<?php echo td() ?>/m_img/ch_flag.jpg"  border="0"></a>
+        <td width="5%">
+            <!--space-->
         </td>
-        <td alt=""  cellspadding="0" cellspacing="0"align="center">
-            <a href="m-ko-index"><img class="korea" src="<?php echo td() ?>/m_img/ko_flag.jpg"  border="0"></a>
+        <td width="30%" align="center">
+            <a href="m-home"><img src="<?php tde() ?>/img/gate_btn_e.jpg"  width="60%" border="0" onmouseout="this.src='<?php tde() ?>/img/gate_btn_e.jpg'" onmouseover="this.src='<?php tde() ?>/img/gate_btn_e_1.jpg'" style="cursor:pointer;" /></a>
+        </td>
+        <td width="30%" align="center">
+            <a href="kr-m-home"><img src="<?php tde() ?>/img/gate_btn_k.jpg"  width="60%" border="0" onmouseout="this.src='<?php tde() ?>/img/gate_btn_k.jpg'" onmouseover="this.src='<?php tde() ?>/img/gate_btn_k_1.jpg'" style="cursor:pointer;" /></a>
+        </td>
+        <td width="30%" align="center">
+            <a href="ha-m-home"><img src="<?php tde() ?>/img/gate_btn_h.jpg"  width="60%" border="0" onmouseout="this.src='<?php tde() ?>/img/gate_btn_h.jpg'" onmouseover="this.src='<?php tde() ?>/img/gate_btn_h_1.jpg'" style="cursor:pointer;" /></a>
+        </td>
+        <td width="5%">
+            <!--space-->
         </td>
     </tr>
+    <tr>
+        <td colspan="5">
+            <br><br><br><!--space-->
+        </td>
+    </tr>
+    <tr>
+        <td colspan="5">
+            <img src="<?php tde() ?>/img/gate_bottom.jpg" width="100%">
+        </td>
+    </tr>
+
 </table>

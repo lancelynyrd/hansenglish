@@ -3,7 +3,7 @@
 <head>
     <!-- Required meta tags always come first -->
     <meta charset="<?php bloginfo( 'charset' ); ?>">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!--meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"-->
 
     <title>Hans English 在线一对一英语 </title>
 
@@ -31,14 +31,15 @@
     <header>
         <div id="wrap">
             <?php
-            if(seg(0) == "m-index" || seg(0) == "h_home") {
+            if(seg(0) == "m-index" || seg(0) == "ha-home" || seg(0) == "ha-m-home") {
 
             }
-            elseif ( strpos( seg(0), 'm-ch-') !== false ) {
-                include "part/m-ch-header.php";
+            elseif (( strpos( seg(0), 'm-ch-') !== false ) || ( strpos( seg(0), 'm-home') !== false )){
+                //include "part/m-ch-header.php";
             }
-            elseif ( strpos( seg(0), 'k_home') !== false ) {
-                include "part/k-header.php";
+            elseif ( (strpos( seg(0), 'kr-home') !== false ) || (strpos( seg(0), 'kr-') !== false )) {
+                include "part/kr-header.php";
+                include 'part/kr-aside.php';
             }
             else{
                 include "part/default-header.php";

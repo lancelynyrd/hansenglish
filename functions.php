@@ -17,7 +17,10 @@ add_action( 'wp_enqueue_scripts', function () {
     wp_enqueue_style( 'module.aside', td() . '/css/module.aside.css' );
     if (strpos( seg(0), 'm-ch-') !== false ) {
         wp_enqueue_style( 'm-ch-header', td() . '/css/m-ch-header.css' );
-    }else{
+    }elseif (strpos( seg(0), 'm-home') !== false ) {
+        
+    }
+    else{
         wp_enqueue_style( 'module.header', td() . '/css/module.header.css' );
     }
     wp_enqueue_style( 'module.translate', td() . '/css/module.translate.css' );
@@ -46,16 +49,20 @@ add_action('after_setup_theme', function () {
 
 abc()->registerRoute(
     [
-        'home', 'k_home', 'h_home',
-        've','reservation',
-        'how-study','use-skype','free-class','fee',
+        'home', 'kr-home', 'ha-home', 'm-home',
+        'how-study','ve','fee','reservation','use-skype','free-class',
         'class-detail-1','class-detail-2','class-detail-3','class-detail-4','class-detail-5','class-detail-6',
+
+        'kr-how-study','kr-ve','kr-fee', 'kr-reservation',
+        'kr-class-detail-1','kr-class-detail-2','kr-class-detail-3','kr-class-detail-4','kr-class-detail-5','kr-class-detail-6',
+
         'm-index',
         'm-ch-index','m-ch-how-study','m-ch-use-skype','m-ch-free-class','m-ch-fee','m-ch-what-is-en','m-ch-hongbao',
-        'm-ch-class-detail-1','m-ch-class-detail-2','m-ch-class-detail-3',
-        'm-ch-class-detail-4','m-ch-class-detail-5','m-ch-class-detail-6',
+        'm-ch-class-detail-1','m-ch-class-detail-2','m-ch-class-detail-3','m-ch-class-detail-4','m-ch-class-detail-5','m-ch-class-detail-6',
         'm-ch-user-log-in','m-ch-user-register','m-ch-user-update','m-ch-reservation',
-        'testing','m-ch-user-password-lost'
+        'testing','m-ch-user-password-lost',
+
+        'ha-m-home'
     ]
 );
 
