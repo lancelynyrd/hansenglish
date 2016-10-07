@@ -1,5 +1,13 @@
 <style>
     html,body{width: 100%;height: 100%;margin: 0;padding: 0; line-height: normal}
+    .font_01 {
+        font-family: 굴림, gulim, sans-serif;
+        font-size: 30px;
+    }
+    .font_03 {
+        font-family: 굴림, gulim, sans-serif;
+        font-size: 22px;
+    }
 </style>
 
 

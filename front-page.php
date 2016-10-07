@@ -15,7 +15,7 @@
         var mobileKeyWords = new Array('iPhone', 'iPod', 'BlackBerry', 'Android', 'Windows CE', 'LG', 'MOT', 'SAMSUNG', 'SonyEricsson');
         for (var word in mobileKeyWords){
             if (navigator.userAgent.match(mobileKeyWords[word]) != null){
-                location.href = "m_index.html";
+                location.href = "m-index";
                 break;
             }
 
