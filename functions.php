@@ -27,7 +27,7 @@ add_action( 'wp_enqueue_scripts', function () {
     wp_enqueue_script( 'wp-util' );
 
     /** Pages that use bootstrap */
-    if ( is_front_page() || seg(0) == 'reservation' || seg(0) == 'enrollment' || seg(0) == 'user-log-in' || seg(0) == 'user-register' || seg(0) == 'm-ch-user-log-in' || seg(0) == 'm-ch-user-register' || seg(0) == 'm-ch-reservation' || seg(0) == 'testing' ) {
+    if ( is_front_page() || seg(0) == 'reservation' || seg(0) == 'enrollment' || seg(0) == 'user-log-in' || seg(0) == 'user-register' || seg(0) == 'm-ch-user-log-in' || seg(0) == 'm-ch-user-register' || seg(0) == 'm-ch-reservation' || seg(0) == 'testing' || seg(0) == 'kr-m-reservation' || seg(0) == 'kr-reservation' ) {
         wp_enqueue_style( 'bootstrap', td() . '/css/bootstrap/css/bootstrap.min.css' );
         wp_enqueue_script( 'tether', td() . '/css/bootstrap/js/tether.min.js' );
         wp_enqueue_script( 'bootstrap', td() . '/css/bootstrap/js/bootstrap.min.js', array(), false, true );

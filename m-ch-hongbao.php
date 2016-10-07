@@ -1,6 +1,14 @@
 
 <style>
     html,body{width: 100%;height: 100%;margin: 0;padding: 0; line-height: normal}
+    #ul, li{
+        font-family: 黑体;
+        font-size: 35px;
+        color: #df970d;
+        margin-left: 0px;
+        word-spacing:10px;
+        line-height:50px;
+    }
 </style>
 <div id='content'>
     <div id='con_01' align="center">
