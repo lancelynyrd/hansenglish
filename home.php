@@ -98,18 +98,6 @@ get_header();
             padding: 0;
             float: left;
         }
-        #sub_01 {
-            width: 100%;
-            margin: 0;
-            padding: 0;
-            float: left;
-        }
-        #sub_02 {
-            width: 100%;
-            margin: 0;
-            padding: 0;
-            float: left;
-        }
         #content:after
         {
             content: '';

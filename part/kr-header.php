@@ -39,15 +39,15 @@
                 <!--img src="<?php echo td() ?>/img/korea/img/header-menu/hansheader_04.jpg" >
                 <img src="<?php echo td() ?>/img/korea/img/header-menu/hansheader_05.jpg" -->
                 <?php if (is_user_logged_in()) : ?>
-                    <a href="<?php echo home_url() ?>/user-update" ><img src="<?php echo td() ?>/img/header-menu/hansheader_10.jpg" style="cursor: pointer"></a>
+                    <a href="<?php echo home_url() ?>/kr-user-update" ><img src="<?php echo td() ?>/img/header-menu/hansheader_10.jpg" style="cursor: pointer"></a>
                 <?php else: ?>
-                    <a href="<?php echo home_url() ?>/user-log-in" ><img src="<?php echo td() ?>/img/korea/img/header-menu/hansheader_06.jpg" style="cursor: pointer"></a>
+                    <a href="<?php echo home_url() ?>/kr-user-log-in" ><img src="<?php echo td() ?>/img/korea/img/header-menu/hansheader_06.jpg" style="cursor: pointer"></a>
                 <?php endif; ?>
                 <img src="<?php echo td() ?>/img/korea/img/header-menu/hansheader_07.jpg" >
                 <?php if (is_user_logged_in()) : ?>
                     <a href="<?php echo wp_logout_url( home_url() ); ?>"><img src="<?php echo td() ?>/img/header-menu/hansheader_11.jpg" style="cursor: pointer"></a>
                 <?php else: ?>
-                    <a href="<?php echo home_url() ?>/user-register" ><img src="<?php echo td() ?>/img/korea/img/header-menu/hansheader_08.jpg" style="cursor: pointer"></a>
+                    <a href="<?php echo home_url() ?>/kr-user-register" ><img src="<?php echo td() ?>/img/korea/img/header-menu/hansheader_08.jpg" style="cursor: pointer"></a>
                 <?php endif; ?>
                 <a href="<?php vc_url()?>" target="_blank"><img src="<?php echo td() ?>/img/korea/img/header-menu/hansheader_12.jpg" style="cursor: pointer"></a>
                 <img src="<?php echo td() ?>/img/korea/img/header-menu/hansheader_13.jpg" >
