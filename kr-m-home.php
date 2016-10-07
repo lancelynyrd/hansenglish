@@ -1,5 +1,5 @@
 <style>
-    html,body{width: 100%;height: 100%;margin: 0;padding: 0;}
+    html,body{width: 100%;height: 100%;margin: 0;padding: 0; line-height: normal}
     table{width: 100%;border: 0;border-collapse:collapse;}
     table td{vertical-align: middle;text-align: center;}
     td.pink{background-color:#EA1D6D}

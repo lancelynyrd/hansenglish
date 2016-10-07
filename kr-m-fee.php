@@ -4,6 +4,11 @@
         font-family: 굴림, gulim, sans-serif;
         font-size: 30px;
     }
+
+    .font_02 {
+        font-family: 굴림, gulim, sans-serif;
+        font-size: 25px;
+    }
     .font_03 {
         font-family: 굴림, gulim, sans-serif;
         font-size: 22px;
