@@ -19,21 +19,6 @@
         padding: 0;
         float: left;
     }
-
-    #sub_01 {
-        width: 100%;
-        margin: 0;
-        padding: 0;
-        float: left;
-    }
-    #sub_02 {
-        width: 100%;
-        margin: 0;
-        padding: 0;
-        float: left;
-        border-left:0px
-    }
-
     #sub_02 li {width:120px; display:inline-block;*display:inline; *zoom:1; border:0px #99FF00 solid}
 
     #content:after {
