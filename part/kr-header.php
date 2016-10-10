@@ -1,5 +1,5 @@
 <script type="text/javascript">
-    var home_url = "<?php echo home_url()?>";
+    var home_url = "<?php echo home_url('kr-home') ?>";
     var mobileKeyWords = new Array('iPhone', 'iPod', 'BlackBerry', 'Android', 'Windows CE', 'LG', 'MOT', 'SAMSUNG', 'SonyEricsson');
     for (var word in mobileKeyWords){
         if (navigator.userAgent.match(mobileKeyWords[word]) != null){
@@ -45,7 +45,7 @@
                 <?php endif; ?>
                 <img src="<?php echo td() ?>/img/korea/img/header-menu/hansheader_07.jpg" >
                 <?php if (is_user_logged_in()) : ?>
-                    <a href="<?php echo wp_logout_url( home_url() ); ?>"><img src="<?php echo td() ?>/img/header-menu/hansheader_11.jpg" style="cursor: pointer"></a>
+                    <a href="<?php echo wp_logout_url( home_url('kr-home') ); ?>"><img src="<?php echo td() ?>/img/header-menu/hansheader_11.jpg" style="cursor: pointer"></a>
                 <?php else: ?>
                     <a href="<?php echo home_url() ?>/kr-user-register" ><img src="<?php echo td() ?>/img/korea/img/header-menu/hansheader_08.jpg" style="cursor: pointer"></a>
                 <?php endif; ?>

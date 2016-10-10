@@ -1,14 +1,20 @@
 </section><!--/#main-->
 
 <footer>
-    <hr>
-    <br>
-        <center>
-            <font size="3" color="black" face="黑体">
-                HANS ENGLISH Tel : 0574-8866-9911 / All rights are reserved by Hans English. Designed by Sunset Glow.
-            </font>
-        </center>
-    <br><br><br>
+    <?php
+    if(seg(0) == "m-index" || seg(0) == "ha-home" || seg(0) == "ha-m-home") {
+
+    }
+    elseif (( strpos( seg(0), 'm-ch-') !== false ) || ( strpos( seg(0), 'm-home') !== false ) || ( strpos( seg(0), 'kr-m-') !== false )){
+        //include "part/m-ch-header.php";
+    }
+    elseif ( (strpos( seg(0), 'kr-home') !== false ) || (strpos( seg(0), 'kr-') !== false )) {
+        include "part/kr-footer.php";
+    }
+    else{
+        include "part/default-footer.php";
+    }
+    ?>
 </footer>
 
 
