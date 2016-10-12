@@ -130,7 +130,7 @@ get_header();
 
     <div id='wrap'>
         <div id='con_03'>
-            <img src="<?php echo td() ?>/img/head_banner_1.png" name='banner' width="100%">
+            <img src="<?php echo td() ?>/img/head_banner_1.jpg" name='banner' width="100%">
         </div>
 
         <div id='con_04'>
