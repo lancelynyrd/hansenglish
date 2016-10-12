@@ -16,6 +16,9 @@
     body .register.content-two {
         font-size: 2rem;
     }
+    body .register.content-two .modal-dialog {
+        font-size: 1.5rem;
+    }
     body .register.content-two .col-sm-6{
         width: 100%;
     }
