@@ -28,11 +28,11 @@
                         <td valign="top" align="center" height="30%" style="background-color: #64d7fa" cellspacing="2px">
                             <?php if (is_user_logged_in()) : ?>
                                 <a href="kr-m-user-update" class="mobile_btn">
-                                    <br><font size="6" color="black" face="黑体">회원가입</font><br><br>
+                                    <br><font size="6" color="black" face="黑体">정보수정</font><br><br>
                                 </a>
                             <?php else: ?>
                             <a href="kr-m-user-register" class="mobile_btn">
-                            <br><font size="6" color="black" face="黑体">정보수정</font><br><br>
+                            <br><font size="6" color="black" face="黑体">회원가입</font><br><br>
                             </a>
                             <?php endif; ?>
                         </td>

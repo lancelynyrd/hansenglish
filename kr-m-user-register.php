@@ -12,7 +12,25 @@
         </table>
     </div>
 </div>
-
+<style>
+    body .register.content-two {
+        font-size: 2rem;
+    }
+    body .register.content-two .col-sm-6{
+        width: 100%;
+    }
+    body section .register.content-two .header-detail {
+        font-size: 24px;
+    }
+    body section .register.content-two .line label {
+        font-size: 24px;
+    }
+    body section .register.content-two input[tabindex="101"] {
+        height: 75px;
+        font-size: 2rem;
+        padding: 25px 0 0 14px;
+    }
+</style>
 <?php
 include 'part/register-content1.php';
 include 'part/register-content2.php';

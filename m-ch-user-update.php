@@ -14,6 +14,27 @@
         </table>
     </div>
 </div>
+
+<style>
+    body section.user-update.content-two,
+    body section .user-update.content-two .change-pwd{
+        font-size: 2rem;
+    }
+    body section .user-update.content-two input[tabindex="101"] {
+        height: 65px;
+        font-size: 2rem;
+        width: 60%;
+    }
+    body section .user-update.content-two .line label {
+        font-size: 2rem;
+        width: 30%;
+    }
+    body section .user-update.content-two .dashicons, .dashicons-before:before {
+        width: 40px;
+        height: 20px;
+        font-size: 32px;
+    }
+</style>
 <?php
 include 'part/user-update-content1.php';
 include 'part/user-update-content2.php';

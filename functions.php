@@ -63,7 +63,7 @@ abc()->registerRoute(
         'm-ch-user-log-in','m-ch-user-register','m-ch-user-update','m-ch-reservation',
         'testing','m-ch-user-password-lost',
 
-        'kr-m-how-study', 'kr-m-ve','kr-m-fee','kr-m-reservation', 'kr-m-user-log-in', "kr-m-user-register",
+        'kr-m-how-study', 'kr-m-ve','kr-m-fee','kr-m-reservation', 'kr-m-user-log-in', 'kr-m-user-register', 'kr-m-user-update',
         'kr-m-class-detail-1','kr-m-class-detail-2','kr-m-class-detail-3','kr-m-class-detail-4','kr-m-class-detail-5','kr-m-class-detail-6',
 
         'ha-m-home'

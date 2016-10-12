@@ -14,6 +14,26 @@
         </table>
     </div>
 </div>
+
+<style>
+    body .data .log-in.content-two .inner {
+        width: 80%;
+        font-size: 2rem;
+    }
+    body .data .log-in.content-two .inner .form-group .info input[name='user_login'],
+    body .data .log-in.content-two .inner .form-group .info input[name='user_pass'] {
+        height: 75px;
+        border-left: 75px solid #dfdfdf;
+        font-size: 2rem;
+    }
+    body .data .log-in.content-two .inner .form-group .info .dashicons-admin-users,
+    body .data .log-in.content-two .inner .form-group .info .dashicons-admin-network {
+        font-size: 44px;
+    }
+    body .data .log-in.content-two .inner .btn.btn-primary {
+        font-size: 2rem;
+    }
+</style>
 <section class="data">
 <?php
 include 'part/log-in-content1.php';
