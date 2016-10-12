@@ -17,26 +17,6 @@
 
 
 <div id='content'>
-    <div id='con_01' align="center">
-        <table  width="100%" border="0" cellpadding="0" cellspacing="0">
-            <tr>
-                <td width="70%"><img src="<?php tde() ?>/m_img/m_logo_left.jpg" width="100%"></td>
-                <td width="30%" background="<?php tde() ?>/m_img/m_logo_right.jpg">
-                    <table width="100%" border="0" cellpadding="0" cellspacing="10px">
-                        <tr>
-                            <td valign="top" align="center" height="30%" style="background-color: #64d7fa" cellspacing="2px"><br><font size="6" color="black" face="굴림체">로그인</font><br><br></td>
-                            <td valign="top" align="center" height="30%" style="background-color: #64d7fa" cellspacing="2px"><br><font size="6" color="black" face="黑体">회원가입</font><br><br></td>
-                        </tr>
-                    </table>
-                    <table width="100%" border="0" cellpadding="0" cellspacing="0">
-                        <tr>
-                            <td valign="bottom" align="center" height="70%"><br><br><br><font size="6" color="#1f9cd9" face="黑体"><!--space--></font></td>
-                        </tr>
-                    </table>
-                </td>
-            </tr>
-        </table>
-    </div>
     <div id='con_02'>
         <table width="100%" border="0" cellpadding="0" cellspacing="0">
             <tr>

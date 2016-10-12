@@ -1,8 +1,8 @@
 <script type='text/javascript'>
     var bannerImg = new Array();
-    bannerImg[0]='<?php tde() ?>/img/korea/m_img/km_home_banner_1.jpg';
-    bannerImg[1]='<?php tde() ?>/img/korea/m_img/km_home_banner_2.jpg';
-    bannerImg[2]='<?php tde() ?>/img/korea/m_img/km_home_banner_3.jpg';
+    bannerImg[0]='<?php tde() ?>/m_img/m_home_banner_1.jpg';
+    bannerImg[1]='<?php tde() ?>/m_img/m_home_banner_2.jpg';
+    bannerImg[2]='<?php tde() ?>/m_img/m_home_banner_3.jpg';
     var newBanner = 0;
     var totalBan = bannerImg.length;
     function cycleBan()
@@ -18,77 +18,51 @@
 
     window.onload=cycleBan;
 </script>
-<style>
-    #con_02 {
-        width: 100%;
-        margin: 0;
-        padding: 0;
-    }
-    #con_03 {
-        width: 100%;
-        margin: 0;
-        padding: 0;
-    }
-    #con_04 {
-        width: 100%;
-        margin: 0;
-        padding: 0;
-    }
-    #con_05 {
-        width: 100%;
-        background-color: gray;
-        margin: 0;
-        padding: 0;
-    }
-    #con_06 {
-        width: 100%;
-        margin: 0;
-        padding: 0;
-    }
-</style>
 <div id='content'>
-
     <div id='con_02'>
         <table width="100%" border="0" cellpadding="0" cellspacing="0">
             <tr>
-                <td width="15%"><a href="kr-m-home"><img src="<?php tde() ?>/img/korea/m_img/km_bt_home_1.jpg" width="100%" border="0"></a></td>
-                <td width="15%"><a href="kr-m-how-study"><img src="<?php tde() ?>/img/korea/m_img/km_bt_howstudy.jpg" width="100%" border="0"></a></td>
-                <td width="15%"><a href="kr-m-class-detail-1"><img src="<?php tde() ?>/img/korea/m_img/km_bt_book.jpg" width="100%" border="0"></a></td>
-                <td width="15%"><a href="kr-m-ve"><img src="<?php tde() ?>/img/korea/m_img/km_bt_ve.jpg" width="100%" border="0"></a></td>
-                <td width="15%"><a href="kr-m-fee"><img src="<?php tde() ?>/img/korea/m_img/km_bt_fee.jpg" width="100%" border="0"></a></td>
-                <td width="15%"><a href="kr-m-reservation"><img src="<?php tde() ?>/img/korea/m_img/km_bt_myclass.jpg" width="100%"  border="0"></a></td>
+                <td width="5%"><!--spce--></td>
+                <td width="15%"><a href="m-ch-home"><img src="<?php tde() ?>/m_img/m_bt_home_1.jpg" border="0"></a></td>
+                <td width="15%"><a href="m-ch-how-study"><img src="<?php tde() ?>/m_img/m_bt_intro_study.jpg"  border="0"></a></td>
+                <td width="15%"><a href="m-ch-class-detail-1"><img src="<?php tde() ?>/m_img/m_bt_how_study.jpg"  border="0"></a></td>
+                <td width="15%"><a href="m-ch-ve"><img src="<?php tde() ?>/m_img/m_bt_ve.jpg"  border="0"></a></td>
+                <td width="15%"><a href="m-ch-fee"><img src="<?php tde() ?>/m_img/m_bt_fee.jpg"  border="0"></a></td>
+                <td width="15%"><a href="m-ch-reservation"><img src="<?php tde() ?>/m_img/m_bt_myclass.jpg"  border="0"></a></td>
+                <td width="5%"><!--spce--></td>
             </tr>
         </table>
     </div>
 
     <div id='con_03'>
-        <img src="<?php tde() ?>/img/korea/m_img/km_home_banner_1.jpg" name='banner' width="100%">
+        <img src="<?php tde() ?>/m_img/m_home_banner_1.jpg" name='banner' width="100%">
     </div>
 
     <div id='con_04'>
         <br><br>
-        <img src="<?php tde() ?>/img/korea/m_img/km_home_middle_banner.jpg" width="100%">
+        <img src="<?php tde() ?>/m_img/home_middle_banner.jpg" width="100%">
         <br><br><br>
+        <a href="m-ch-what-is-en"><img src="<?php tde() ?>/m_img/what_is_video_en.jpg"   border="0" width="100%"></a>
+        <br><br>
     </div>
 </div>
-
-<div id='con_05' align="center" valign="bottom">
+<div id='con_o5' align="center" valign="bottom">
     <table width="100%" border="0" cellpadding="0" cellspacing="0" style="background-color: #9e9f9f">
-    <tr>
-        <td align="center">
-            <br><br><br><br><br>
-            <font face="고딕" size="7px" color="white">중국으로 진출한 한스영어, 지금 시작해 보세요！</font>
-            <br><br>
-            <font face="고딕" size="6px" color="white">10여년의 경험으로 국제 무대로 진출한 한스 영어<br>앞으로도 더욱 노력하겠습니다。</font>
-            <br><br><br><br><br>
-        </td>
-    </tr>
+        <tr>
+            <td align="center">
+                <br><br><br><br><br>
+                <font face="黑体" size="7px" color="white">韩国 10多年的培训经验<br>快享受快乐英语！</font>
+                <br><br>
+                <font face="黑体" size="6px" color="white">2007年在韩国开始英语培训，已经几万多学生通过我们培训过程</font>
+                <br><br><br><br><br>
+            </td>
+        </tr>
     </table>
 </div>
 <div id='con_06'>
     <table width="100%" height="20%" border="0" cellpadding="0" cellspacing="0" style="background-color: #d6d9d9">
         <tr>
-            <td align="center" colspan="9"><br><br><br><font face="고딕" size="6px" color="gray">< HANS 학생 수강후기 ></font><br><br><br></td>
+            <td align="center" colspan="9"><br><br><br><font face="黑体" size="6px" color="gray">< HANS 英语 受益学生 ></font><br><br><br></td>
         </tr>
         <tr>
             <td width="3%">	<!--space --></td>
@@ -141,7 +115,7 @@
             <td width="3%">	<!--space --></td>
         </tr>
         <tr>
-            <td colspan="9">
+            <td colspan="17">
                 <br><br><br><br>
                 <!--space -->
             </td>
@@ -149,4 +123,6 @@
     </table>
 </div>
 
-<img src="<?php tde() ?>/m_img/teachers.jpg" width="100%">
+<div id='con_05'>
+    <img src="<?php tde() ?>/m_img/teachers.jpg" width="100%">
+</div>
