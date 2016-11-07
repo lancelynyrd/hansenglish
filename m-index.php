@@ -19,9 +19,6 @@
         <td width="30%" align="center">
             <a href="kr-m-home"><img src="<?php tde() ?>/img/gate_btn_k.jpg"  width="60%" border="0" onmouseout="this.src='<?php tde() ?>/img/gate_btn_k.jpg'" onmouseover="this.src='<?php tde() ?>/img/gate_btn_k_1.jpg'" style="cursor:pointer;" /></a>
         </td>
-        <td width="30%" align="center">
-            <a href="ha-m-home"><img src="<?php tde() ?>/img/gate_btn_h.jpg"  width="60%" border="0" onmouseout="this.src='<?php tde() ?>/img/gate_btn_h.jpg'" onmouseover="this.src='<?php tde() ?>/img/gate_btn_h_1.jpg'" style="cursor:pointer;" /></a>
-        </td>
         <td width="5%">
             <!--space-->
         </td>
