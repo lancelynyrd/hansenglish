@@ -8,7 +8,7 @@
 
 
     <?php
-    if(seg(0) == "kr-" || strpos( seg(0), 'kr-m-') !== false ) {
+    if(strpos( seg(0), 'kr-') !== false || strpos( seg(0), 'kr-m-') !== false ) {
         ?>
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
         <title>Hans 영어</title>
