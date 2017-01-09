@@ -168,8 +168,8 @@ function vc_url( $roomname = 'VC TEST Room' ) {
         $domain = get_opt('lms[domain]', 'default');
         $user = wp_get_current_user();
         $username = $user->user_login;
-        if($username == 'merry') {
-            $username = '.merry';
+        if($username == 'merry' || $username == 'cocogreen') {
+            $username = '.'.$username;
         }
         $roomname = "$username@$domain";
     }
