@@ -50,7 +50,8 @@
                 <?php else: ?>
                     <a href="<?php echo home_url() ?>/kr-user-register" ><img src="<?php echo td() ?>/img/korea/img/header-menu/hansheader_08.jpg" style="cursor: pointer"></a>
                 <?php endif; ?>
-                <a href="<?php vc_url()?>" target="_blank"><img src="<?php echo td() ?>/img/korea/img/header-menu/hansheader_12.jpg" style="cursor: pointer"></a>
+                <? /*<a href="<?php vc_url()?>" target="_blank"><img src="<?php echo td() ?>/img/korea/img/header-menu/hansheader_12.jpg" style="cursor: pointer"></a> */ ?>
+                <a href="<?php echo saeha_url()?>" target="_blank"><img src="<?php echo td() ?>/img/korea/img/header-menu/hansheader_12.jpg" style="cursor: pointer"></a>
                 <img src="<?php echo td() ?>/img/korea/img/header-menu/hansheader_13.jpg" >
             </div>
         </div>
