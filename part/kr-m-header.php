@@ -36,6 +36,11 @@
                             </a>
                             <?php endif; ?>
                         </td>
+                        <td valign="top" align="center" height="30%" style="background-color: #64d7fa" cellspacing="2px">
+                            <a href="<?php echo saeha_url()?>" target="_blank">
+                                <font size="6" color="black" face="黑体">강의실</font>
+                            </a>
+                        </td>
                     </tr>
                 </table>
                 <table width="100%" border="0" cellpadding="0" cellspacing="0">
